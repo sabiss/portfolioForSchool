@@ -26,16 +26,22 @@ main{
     color: white;
     margin-bottom: 40px;
 }
+.card:hover{
+    border: 1px solid white;
+}
 .card > img{
     width: 100%;
 }
 .text, .buttom{
     padding: 20px;
 }
-.buttom{
+.buttom, .text{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.text{
+    flex-direction: column;
 }
 .buttom > div{
     background: #5C0D78;
@@ -44,4 +50,7 @@ main{
     align-items: center;
     padding: 20px;
     width: 100px;
+}
+.buttom > div:hover{
+    background-color: rgb(102, 22, 131);
 }
