@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 20px 40px;
+    color: white;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: 2px solid #434343;
+}
+main{
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card{
+    display: grid;
+    grid-template-rows: 1fr 1fr 0.5fr;
+    background-color: #191B1D;
+    color: white;
+    margin-bottom: 40px;
+}
+.card > img{
+    width: 100%;
+}
+.text, .buttom{
+    padding: 20px;
+}
+.buttom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttom > div{
+    background: #5C0D78;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100px;
+}
